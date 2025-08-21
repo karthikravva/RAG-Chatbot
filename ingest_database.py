@@ -7,7 +7,6 @@ from uuid import uuid4
 # import the .env file
 from dotenv import load_dotenv
 load_dotenv()
-
 # configuration
 DATA_PATH = r"data"
 CHROMA_PATH = r"chroma_db"
