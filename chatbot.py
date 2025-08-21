@@ -11,7 +11,6 @@ DATA_PATH = r"data"
 CHROMA_PATH = r"chroma_db"
 
 embeddings_model = OpenAIEmbeddings(model="text-embedding-3-large")
-
 # initiate the model
 llm = ChatOpenAI(temperature=0.5, model='gpt-4o-mini')
 
